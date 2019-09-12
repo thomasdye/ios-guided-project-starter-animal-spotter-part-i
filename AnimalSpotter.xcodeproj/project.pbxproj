@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CE5CD62923273A740011A4B2 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD62823273A740011A4B2 /* Bearer.swift */; };
 		CE5CD62B23273D710011A4B2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD62A23273D710011A4B2 /* User.swift */; };
+		CE5CD6612329E6DC0011A4B2 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD6602329E6DC0011A4B2 /* AnimalDetailViewController.swift */; };
+		CE5CD6632329E7E10011A4B2 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD6622329E7E10011A4B2 /* Animal.swift */; };
 		CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA57A22668AB2009EA535 /* AppDelegate.swift */; };
 		CEDCA58022668AB2009EA535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDCA57E22668AB2009EA535 /* Main.storyboard */; };
 		CEDCA58222668AB2009EA535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDCA58122668AB2009EA535 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		CE5CD62823273A740011A4B2 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
 		CE5CD62A23273D710011A4B2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE5CD6602329E6DC0011A4B2 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
+		CE5CD6622329E7E10011A4B2 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		CEDCA57722668AB2009EA535 /* AnimalSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDCA57A22668AB2009EA535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDCA57F22668AB2009EA535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +52,7 @@
 			children = (
 				CE5CD62823273A740011A4B2 /* Bearer.swift */,
 				CE5CD62A23273D710011A4B2 /* User.swift */,
+				CE5CD6622329E7E10011A4B2 /* Animal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			children = (
 				CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */,
 				CEDCA59022668D0F009EA535 /* LoginViewController.swift */,
+				CE5CD6602329E6DC0011A4B2 /* AnimalDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -172,10 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5CD62923273A740011A4B2 /* Bearer.swift in Sources */,
+				CE5CD6632329E7E10011A4B2 /* Animal.swift in Sources */,
 				CEDCA59A226697BD009EA535 /* APIController.swift in Sources */,
 				CE5CD62B23273D710011A4B2 /* User.swift in Sources */,
 				CEDCA59122668D0F009EA535 /* LoginViewController.swift in Sources */,
 				CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */,
+				CE5CD6612329E6DC0011A4B2 /* AnimalDetailViewController.swift in Sources */,
 				CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
